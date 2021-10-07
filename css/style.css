@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+:root{
+    --color-highlight1: #000;
+    --color-highlight2: #fff;
+}
+
+header{
+    background-color: red;
+    width: 100%;
+    height: 100px;
+}
+
