@@ -1,14 +1,51 @@
 *{
     margin: 0;
 }
+
 :root{
     --color-highlight1: #000;
     --color-highlight2: #fff;
 }
 
 header{
-    background-color: red;
+    background-color: rgb(255, 218, 218);
     width: 100%;
     height: 100px;
+    display: flex;
+    justify-content: space-between;
 }
+
+header nav ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.hero{
+    display: flex;
+}
+
+.container__mujer{
+    display: flex;
+}
+
+.expertos{
+    background-color: coral;
+    display: flex;
+}
+
+.estadisticas{
+    background-color: crimson;
+}
+
+.cuidado{
+    background-color: cyan;
+}
+
+.cuidado__salud{
+    background-color: darkgrey;
+    text-align: center;
+}
+
+
 
